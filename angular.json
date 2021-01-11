@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "app-angular-lemoncode"
+  "defaultProject": "app-angular-lemoncode",
+  "cli": {
+    "analytics": false
+  }
 }
