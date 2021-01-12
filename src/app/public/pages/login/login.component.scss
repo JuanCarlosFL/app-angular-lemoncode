@@ -1,0 +1,33 @@
+.login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+mat-card {
+  width: 50%;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+.infoLogin{
+  background-color: #D7EDF7;
+  border-radius: 10px;
+  color: #31708F;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 50%;
+}
+
+.errorLogin{
+  background-color: #F2DEDE;
+  border-radius: 10px;
+  color: #B04442;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 50%;
+}
