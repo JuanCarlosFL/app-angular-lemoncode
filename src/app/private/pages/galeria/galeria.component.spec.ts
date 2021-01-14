@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PrivateNavbarComponent } from './private-navbar.component';
+import { GaleriaComponent } from './galeria.component';
 
-describe('PrivateNavbarComponent', () => {
-  let component: PrivateNavbarComponent;
-  let fixture: ComponentFixture<PrivateNavbarComponent>;
+describe('GaleriaComponent', () => {
+  let component: GaleriaComponent;
+  let fixture: ComponentFixture<GaleriaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PrivateNavbarComponent ]
+      declarations: [ GaleriaComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PrivateNavbarComponent);
+    fixture = TestBed.createComponent(GaleriaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
