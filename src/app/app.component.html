@@ -1,8 +1,12 @@
 <div class="container">
   <header>
     <app-header></app-header>
-    <app-public-navbar></app-public-navbar>
-    <app-private-nav-bar></app-private-nav-bar>
+    <div *ngIf="isLogged()">
+      <app-private-nav-bar></app-private-nav-bar>
+    </div>
+    <div *ngIf="!isLogged()">
+      <app-public-navbar></app-public-navbar>
+    </div>
   </header>
   <main>
     <router-outlet></router-outlet>

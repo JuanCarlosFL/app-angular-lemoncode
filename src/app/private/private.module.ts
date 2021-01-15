@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { PrivateRoutingModule } from './private-routing.module';
 import { PrivateComponent } from './private.component';
 import { SharedModule } from '../shared/shared.module';
-import { PrivateNavBarComponent } from '../public/private-nav-bar/private-nav-bar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { GaleriaComponent } from './pages/galeria/galeria.component';
 import { CrudComponent } from './pages/crud/crud.component';
